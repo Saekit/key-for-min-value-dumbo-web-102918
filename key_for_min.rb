@@ -3,5 +3,7 @@
 # If the method is called and passed an argument of an empty hash, it should return nil.
 
 def key_for_min_value(name_hash)
-  
+  return nil if name_hash.empty?
+  name_hash.each do |key, value|
+    
 end
