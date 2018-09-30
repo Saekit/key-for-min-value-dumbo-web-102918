@@ -5,5 +5,5 @@
 def key_for_min_value(name_hash)
   return nil if name_hash.empty?
   name_hash.each do |key, value|
-    
+    return key if value < value 
 end
